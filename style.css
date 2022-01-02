@@ -1,0 +1,95 @@
+/* *********for all page*************** */
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  padding: 1% 10%;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #747474;
+}
+
+/************ partie navbar*************** */
+#about {
+  color: #00b39b;
+}
+.navbar {
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+header img {
+  width: 20%;
+}
+ul {
+  font-size: 0.9375rem;
+  line-height: 2em;
+  padding: 1.33 em 0;
+}
+li {
+  margin: 20px;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #ababab;
+  font-style: gras;
+  padding: 0 0.6 em;
+}
+/* #intro {
+  display: flex;
+} */
+#intro img {
+  display: block;
+  margin: 0 auto;
+  padding: 4%;
+}
+.intro-h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  text-align: center;
+  margin: 1 em 0;
+  font-weight: 300;
+}
+.container {
+  display: flex;
+  padding: 4%;
+  justify-content: space-between;
+}
+.container p {
+  line-height: 200%;
+}
+/************** partie main introduction**************** */
+.cards {
+  display: flex;
+
+  color: white;
+  justify-content: space-between;
+  line-height: 200%;
+}
+.card {
+  background-color: #00b39b;
+  opacity: 1;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 0 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+.cards h1 {
+  padding: 4%;
+}
+.cards a {
+  padding-block-end: 1%;
+  color: white;
+}
+.cards p {
+  padding: 7%;
+}
